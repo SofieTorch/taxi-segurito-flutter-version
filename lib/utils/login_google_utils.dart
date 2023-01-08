@@ -52,7 +52,6 @@ class LoginGoogleUtils {
               email: email,
               password: "Google",
               signUpType: Server.SignUpType['GOOGLE']!);
-          //AuthService().logIn(client);
           log(exitsClient.cellphone + "es t");
           return client;
         }
